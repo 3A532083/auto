@@ -14,3 +14,6 @@ use Demo\Hello;
 $world = new World();
 $lara= new Lara();
 $vincent= new Hello\Someone('Vincent');
+
+$mary= new \Demo\Hello\Someone('Mary');
+$john= new Demo\Hello\Someone('John');
